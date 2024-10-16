@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+
+<httpSample t="143" it="0" lt="142" ct="106" ts="1725130320452" s="false" lb="02-1" rc="400" rm="Bad Request" tn="" dt="text" de="UTF-8" by="468" sc="1" ec="1" ng="0" na="0" hn="LLAP-0054">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 273
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: EQn0SCiogrHf3g+0fs5siA==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">
+&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+&lt;title&gt;400 Bad Request&lt;/title&gt;
+&lt;/head&gt;
+&lt;body text=#000000 bgcolor=#ffffff&gt;
+&lt;h1&gt;Error: Bad Request&lt;/h1&gt;
+&lt;h2&gt;Your client has issued a malformed or illegal request.&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;/body&gt;&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+
+
+
+
+
+
+</testResults>
